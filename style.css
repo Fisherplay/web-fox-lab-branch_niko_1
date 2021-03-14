@@ -1,0 +1,17 @@
+.v-btn{
+  margin: 15px;
+}
+span.myTitle{
+  border-bottom: 4px solid #F89422;
+  border-left: 4px solid #F89422;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+#team {
+  background-color: #D7DBDD;
+}
+
+#sheet_team{
+  background-color: #D7DBDD;
+}

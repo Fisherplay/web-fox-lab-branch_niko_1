@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="/imagenes/favicon.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Fox Lab</title>
+</head>
+<body>
+    <div id="app">
+        <v-app>
+        <!--nav bar-->
+        <navbar></navbar>
+        <v-main>
+            <section id="home">
+                <home></home>
+            </section>       
+            <section id="whoare">
+                <whoare></whoare>
+            </section>
+            <section id="team">
+                <team></team>
+            </section>
+            <section id="contact">
+                <h2>Contacto</h2>
+                <v-container>
+                    <v-row>
+                        <v-col>
+                            <v-form>
+                                <v-text-field
+                                    label="Nombre"
+                                ></v-text-field>
+                                <v-text-field
+                                    label="Email"
+                                ></v-text-field>
+                                <v-text-field
+                                    label="Telefono"
+                                ></v-text-field>
+                                <v-textarea
+                                    label="Consulta"
+                                ></v-textarea>
+                                <v-btn>Enviar</v-btn>
+                            </v-form>
+                        </v-col>
+                        <v-col>
+                            <v-icon></v-icon>
+                            <h4> (+54)9 3487-511581 </h4>
+                            <v-icon></v-icon>
+                            <h4>info@foxlab.com</h4>
+                        </v-col>
+                    </v-row>
+                </v-container>
+        </v-main>
+        <!--Falta correo, facebook, instagram y google maps-->
+        <v-footer>
+            <v-container class="info-footer">
+                <v-row>
+                    <v-col>
+                        - by FoxLab
+                    </v-col>
+                    <v-col>
+                        <a href="https://github.com/FoxLabAR">Github</a>
+                    </v-col>
+                    <v-col>
+                        <a href="" target="_BLANK">Facebook</a>
+                    </v-col>
+                    <v-col>
+                        <a href="">Instragram</a>
+                    </v-col>
+                    <v-col>
+                        <a href="">Google Maps  </a>
+                    </v-col>
+                </v-row>
+            </v-container>
+        </v-footer>
+        </v-app>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
